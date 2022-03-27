@@ -1,0 +1,36 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cornflowerblue; */
+    background-image: url('https://st2.depositphotos.com/5539346/10002/v/450/depositphotos_100026222-stock-illustration-vector-modern-seamless-geometry-pattern.jpg');
+}
+canvas {
+    border: 7px solid white;
+}
+.header {
+    display: block;
+    justify-content: space-around;
+    width: 1080px;
+    background-color: black;
+    align-items: center;
+    border: 7px solid white;
+}
+h1 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    justify-content: space-around;
+}
